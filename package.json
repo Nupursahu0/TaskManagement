@@ -1,0 +1,31 @@
+{
+  "name": "taskmanagement",
+  "version": "1.0.0",
+  "description": "Task Management API that allows creating tasks and retrieving them with optional filtering by status.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nupursahu0/TaskManagement.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nupursahu0/TaskManagement/issues"
+  },
+  "homepage": "https://github.com/Nupursahu0/TaskManagement#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "joi": "^17.13.3",
+    "mongoose": "^8.13.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
